@@ -1,0 +1,12 @@
+{
+  "stateName": "Maharashtra",
+  "fixedCharge": 125.00,
+  "meterRent": 0.00,
+  "dutyPercentage": 16.00,
+  "slabs": [
+    { "min": 0, "max": 100, "rate": 4.50 },
+    { "min": 100, "max": 300, "rate": 8.50 },
+    { "min": 300, "max": 500, "rate": 12.00 },
+    { "min": 500, "max": null, "rate": 13.50 }
+  ]
+}
