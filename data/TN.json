@@ -1,0 +1,15 @@
+{
+  "stateName": "Tamil Nadu",
+  "fixedCharge": 75.00,
+  "meterRent": 0.00,
+  "dutyPercentage": 5.00,
+  "slabs": [
+    { "min": 0, "max": 100, "rate": 0.00 },
+    { "min": 100, "max": 400, "rate": 4.70 },
+    { "min": 400, "max": 500, "rate": 6.30 },
+    { "min": 500, "max": 600, "rate": 8.40 },
+    { "min": 600, "max": 800, "rate": 9.45 },
+    { "min": 800, "max": 1000, "rate": 10.50 },
+    { "min": 1000, "max": null, "rate": 11.55 }
+  ]
+}
