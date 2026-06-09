@@ -1,0 +1,12 @@
+{
+  "stateName": "Andhra Pradesh",
+  "fixedCharge": 100.00,
+  "meterRent": 0.00,
+  "dutyPercentage": 6.00,
+  "slabs": [
+    { "min": 0, "max": 50, "rate": 3.25 },
+    { "min": 50, "max": 100, "rate": 4.80 },
+    { "min": 100, "max": 200, "rate": 6.30 },
+    { "min": 200, "max": null, "rate": 7.40 }
+  ]
+}
