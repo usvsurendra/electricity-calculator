@@ -1,0 +1,12 @@
+{
+  "stateName": "Delhi",
+  "fixedCharge": 75.00,
+  "meterRent": 20.00,
+  "dutyPercentage": 5.00,
+  "slabs": [
+    { "min": 0, "max": 100, "rate": 3.55 },
+    { "min": 100, "max": 300, "rate": 5.25 },
+    { "min": 300, "max": 500, "rate": 8.50 },
+    { "min": 500, "max": null, "rate": 12.00 }
+  ]
+}
