@@ -1,0 +1,9 @@
+{
+  "stateName": "Karnataka",
+  "fixedCharge": 120.00,
+  "meterRent": 0.00,
+  "dutyPercentage": 9.00,
+  "slabs": [
+    { "min": 0, "max": null, "rate": 6.82 }
+  ]
+}
