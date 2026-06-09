@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State-Wide Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h2>⚡ Electricity Bill Calculator (India)</h2>
+        <p>Calculate your power bill instantly with state-wise tariff slabs.</p>
+        
+        <hr>
+
+        <div class="form-group">
+            <label for="stateSelect">Select State</label>
+            <select id="stateSelect">
+                <option value="AP">Andhra Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="DL">Delhi</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="unitsInput">Units Consumed (kWh)</label>
+            <input type="number" id="unitsInput" placeholder="e.g. 250" value="250">
+        </div>
+
+        <button id="calculateBtn">Calculate Bill</button>
+
+        <div id="resultSection" class="result-hidden">
+            <h3>Your Bill Breakdown</h3>
+            <table id="breakdownTable">
+                <thead>
+                    <tr>
+                        <th>Slab Range</th>
+                        <th>Units</th>
+                        <th>Rate/Unit</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    </tbody>
+            </table>
+
+            <div class="summary-box">
+                <p>Energy Charges: <strong id="energyChargeText">₹0.00</strong></p>
+                <p>Fixed Charges: <strong id="fixedChargeText">₹0.00</strong></p>
+                <p>Electricity Duty (5%): <strong id="dutyText">₹0.00</strong></p>
+                <hr>
+                <p class="total-amount">Total Bill Amount: <span id="totalBillText">₹0.00</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
